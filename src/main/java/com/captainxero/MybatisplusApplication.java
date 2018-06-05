@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.captainxero.project.*.*.dao")
+@MapperScan("com.captainxero.project.system.user.dao")
 public class MybatisplusApplication {
 
     public static void main(String[] args) {
